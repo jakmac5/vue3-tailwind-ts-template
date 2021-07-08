@@ -1,4 +1,4 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
+<!-- This is hero - requires Tailwind CSS v2.0+ -->
 <template>
   <div class="dark-bg relative h-full overflow-hidden lg:h-1/2">
     <div class="absolute mx-auto lg:w-1/2">
@@ -85,6 +85,7 @@
                     >
                       <span class="sr-only">Close main menu</span>
                       <!-- <HeroiconsXOutline class="w-6 h-6" aria-hidden="true" /> -->
+                      <img src="../assets/icons/close.svg" class="w-6" />
                     </PopoverButton>
                   </div>
                 </div>

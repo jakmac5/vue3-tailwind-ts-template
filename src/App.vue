@@ -1,19 +1,22 @@
 <template class="dark-bg">
   <Home class="dark-bg z-1 absolute" style="z-index: 1" />
   <div class="flex">
-    <div class="w-1/2 h-screen"><p></p></div>
-    <div class="circle-gradient absolute z-0 right-0 top-40 w-1/2 h-full rotate-90"></div>
+    <div class="h-screen lg:w-1/2"><p></p></div>
+    <div class="circle-gradient absolute z-0 top-40 w-full h-full rotate-90 lg:right-0 lg:w-1/2"></div>
   </div>
+  <MarketingSection class="absolute top-full lg:top-1/2" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import Home from "./components/Home.vue";
+import MarketingSection from "./components/MarketingSection.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     Home,
+    MarketingSection,
   },
 });
 </script>
