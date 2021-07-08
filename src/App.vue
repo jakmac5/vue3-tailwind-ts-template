@@ -1,5 +1,5 @@
 <template class="dark-bg">
-  <Home class="dark-bg z-1 absolute" />
+  <Home class="dark-bg z-1 absolute" style="z-index: 1" />
   <div class="flex">
     <div class="w-1/2 h-screen"><p></p></div>
     <div class="circle-gradient absolute z-0 right-0 top-40 w-1/2 h-full rotate-90"></div>

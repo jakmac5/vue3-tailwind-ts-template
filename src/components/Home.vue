@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="dark-bg relative h-full overflow-hidden">
+  <div class="dark-bg relative h-full overflow-hidden lg:h-1/2">
     <div class="absolute mx-auto lg:w-1/2">
       <!-- <div class="mx-auto max-w-7xl"> -->
       <div class="dark-bg relative z-10 pb-8 sm:pb-16 md:pb-20 lg:pb-28 lg:w-full lg:max-w-2xl xl:pb-32">
