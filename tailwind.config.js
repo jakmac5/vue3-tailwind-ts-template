@@ -5,6 +5,12 @@ module.exports = {
     maxWidth: {
       "fhd-1920": "1920px",
     },
+    minHeight: {
+      "300px": "300px",
+      "400px": "400px",
+      "470px": "470px",
+      "500px": "500px",
+    },
     extend: {},
   },
   variants: {

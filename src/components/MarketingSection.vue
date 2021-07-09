@@ -1,11 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="dark-bg py-12">
-    <div class="mx-auto px-4 max-w-7xl sm:px-6 lg:px-8">
+    <div class="mx-auto px-4 w-full sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <h2 class="text-indigo-600 text-base font-semibold tracking-wide uppercase">Transactions</h2>
         <p class="mt-2 text-white text-3xl font-extrabold tracking-tight leading-8 sm:text-4xl">A better way to send money</p>
-        <p class="text-white-500 mt-4 max-w-2xl text-xl lg:mx-auto">
+        <p class="text-white-500 max-w-2xl mt-4 text-xl lg:mx-auto">
           Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
         </p>
       </div>

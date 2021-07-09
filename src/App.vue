@@ -1,10 +1,10 @@
 <template class="dark-bg">
-  <Home class="dark-bg z-1 absolute" style="z-index: 1" />
-  <div class="flex">
+  <Home class="dark-bg z-1 min-h-500px" style="z-index: 1" />
+  <!-- <div class="flex">
     <div class="h-screen lg:w-1/2"><p></p></div>
     <div class="circle-gradient absolute z-0 top-40 w-full h-full rotate-90 lg:right-0 lg:w-1/2"></div>
-  </div>
-  <MarketingSection class="absolute top-full lg:top-1/2" />
+  </div> -->
+  <MarketingSection class="w-full lg:top-1/2" />
 </template>
 
 <script lang="ts">

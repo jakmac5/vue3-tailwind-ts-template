@@ -1,9 +1,9 @@
 <!-- This is hero - requires Tailwind CSS v2.0+ -->
 <template>
   <div class="dark-bg relative h-full overflow-hidden lg:h-1/2">
-    <div class="absolute mx-auto lg:w-1/2">
+    <div class="absolute mx-auto lg:w-1/3">
       <!-- <div class="mx-auto max-w-7xl"> -->
-      <div class="dark-bg relative z-10 pb-8 sm:pb-16 md:pb-20 lg:pb-28 lg:w-full lg:max-w-2xl xl:pb-32">
+      <div class="dark-bg lg:max-w-2xl relative z-10 pb-8 sm:pb-16 md:pb-20 lg:pb-28 lg:w-full xl:pb-32">
         <svg
           class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
           fill="currentColor"
@@ -32,11 +32,9 @@
                         justify-center
                         p-2
                         text-gray-400
-                        hover:text-gray-500
-                        hover:bg-gray-100
+                        hover:text-gray-500 hover:bg-gray-100
                         rounded-md
-                        focus:outline-none
-                        focus:ring-2 focus:ring-inset focus:ring-indigo-500
+                        focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500
                       "
                     >
                       <span class="sr-only">Open main menu</span>
@@ -76,11 +74,9 @@
                         justify-center
                         p-2
                         text-gray-400
-                        hover:text-gray-500
-                        hover:bg-gray-100
+                        hover:text-gray-500 hover:bg-gray-100
                         rounded-md
-                        focus:outline-none
-                        focus:ring-2 focus:ring-inset focus:ring-indigo-500
+                        focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500
                       "
                     >
                       <span class="sr-only">Close main menu</span>
@@ -104,14 +100,14 @@
           </transition>
         </Popover>
 
-        <main class="mt-10 mx-auto px-4 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <main class="max-w-7xl mt-10 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div class="sm:text-center lg:text-left">
             <h1 class="text-white text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
               <span class="block xl:inline">Data to enrich your</span>
               {{ " " }}
               <span class="block text-indigo-600 xl:inline">online business</span>
             </h1>
-            <p class="mt-3 text-gray-500 text-base sm:mt-5 sm:mx-auto sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+            <p class="sm:max-w-xl mt-3 text-gray-500 text-base sm:mt-5 sm:mx-auto sm:text-lg md:mt-5 md:text-xl lg:mx-0">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
             </p>
             <div class="mt-5 sm:flex sm:justify-center sm:mt-8 lg:justify-start">
@@ -131,9 +127,7 @@
                     hover:bg-indigo-700
                     border border-transparent
                     rounded-md
-                    md:px-10
-                    md:py-4
-                    md:text-lg
+                    md:px-10 md:py-4 md:text-lg
                   "
                 >
                   Get started
@@ -155,9 +149,7 @@
                     hover:bg-indigo-200
                     border border-transparent
                     rounded-md
-                    md:px-10
-                    md:py-4
-                    md:text-lg
+                    md:px-10 md:py-4 md:text-lg
                   "
                 >
                   Live demo
@@ -168,8 +160,8 @@
         </main>
       </div>
     </div>
-    <div class="absolute z-20 bottom-0 lg:bottom-auto lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="lg:max-h-1xl w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="../assets/dark/hero.png" alt="" />
+    <div class="absolute z-20 bottom-0 mt-20 lg:bottom-0 lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-auto">
+      <img class="lg:max-h-1xl w-full h-56 object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src="../assets/dark/hero.png" alt="" />
     </div>
   </div>
 </template>
