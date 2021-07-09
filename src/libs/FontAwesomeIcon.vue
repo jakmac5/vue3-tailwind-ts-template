@@ -1,6 +1,6 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg" :class="$props.class" :viewBox="`0 0 ${width} ${height}`">
-    <path fill="currentColor" :d="svgPath" />
+    <path fill="currentColor" :d="String(svgPath)" />
   </svg>
 </template>
 
